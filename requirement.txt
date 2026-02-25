@@ -1,0 +1,9 @@
+ultralytics
+python-dotenv
+opencv-python
+Pillow
+fastapi
+uvicorn
+python-multipart
+huggingface_hub
+numpy
