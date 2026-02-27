@@ -40,7 +40,7 @@ This repository hosts the **Trofes Detection Model V2**, architected for high-pr
  ┗ 📜 requirements.txt       # Python dependencies
 
 
- 🐳 Docker & Deployment
+## 🐳 Docker & Deployment
 Deployment Workflow
 GitHub Repository: Source code & Dockerfile are pushed to main.
 
@@ -58,7 +58,7 @@ CMD ["uvicorn", "API.app:app", "--host", "0.0.0.0", "--port", "7860"]
 [!IMPORTANT]
 Hugging Face Spaces requires the Dockerfile to be at the repository root and exposes port 7860 by default.
 
-💻 Local Development
+## 💻 Local Development
 1. Setup Environment
 # Clone the repo
 git clone [https://github.com/username-anda/trofes-model-detection.git](https://github.com/username-anda/trofes-model-detection.git)
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 uvicorn API.app:app --reload
 API akan tersedia di: http://127.0.0.1:8000
 
-📡 API Endpoints
+## 📡 API Endpoints
 Method,Endpoint,Description
 GET,/,Health check & Model status.
 POST,/predict,Upload image file to detect ingredients.
@@ -92,7 +92,7 @@ Example Response:
   ]
 }
 
-📄 License & Credits
+##📄 License & Credits
 Model Weights: Bagusarya/Trofes-YOLOv8m-Detct-Ingredients
 
 License: MIT License.
