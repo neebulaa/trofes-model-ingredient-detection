@@ -38,7 +38,8 @@ This repository hosts the **Trofes Detection Model V2**, architected for high-pr
  ┣ 📜 main.py                # Local inference script (Standalone)
  ┣ 📜 README.md 
  ┗ 📜 requirements.txt       # Python dependencies
-
+```
+---
 
 ## 🐳 Docker & Deployment
 Deployment Workflow
