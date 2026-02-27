@@ -1,7 +1,7 @@
 # Trofes: Food Ingredient Detection API
 
 ![Python](https://img.shields.io/badge/Python-FastAPI-blue) ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-green) ![Docker](https://img.shields.io/badge/Deploy-Docker-blue) ![HuggingFace](https://img.shields.io/badge/🤗-Hugging%20Face-yellow)
-!(TrofesLogo.png)
+![Trofes Logo](TrofesLogo.png)
 
 An intelligent computer vision backend serving a YOLOv8m model for real-time food ingredient detection. This system identifies 30 types of raw food ingredients, designed to integrate seamlessly with the Trofes Recipe Ecosystem.
 
