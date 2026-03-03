@@ -4,11 +4,17 @@
 
 <h1 align="center">Trofes: Machine Learning Recommendation API</h1>
 
-# Trofes: Food Ingredient Detection API
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-FastAPI-blue" alt="Python FastAPI" />
+  <img src="https://img.shields.io/badge/Model-YOLOv8-green" alt="YOLOv8" />
+  <img src="https://img.shields.io/badge/Deploy-Docker-blue" alt="Docker" />
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-yellow" alt="HuggingFace" />
+</p>
 
-![Python](https://img.shields.io/badge/Python-FastAPI-blue) ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-green) ![Docker](https://img.shields.io/badge/Deploy-Docker-blue) ![HuggingFace](https://img.shields.io/badge/🤗-Hugging%20Face-yellow)
-
+<p align='center'>
 An intelligent computer vision backend serving a YOLOv8m model for real-time food ingredient detection. This system identifies 30 types of raw food ingredients, designed to integrate seamlessly with the Trofes Recipe Ecosystem.
+</p>
+
 
 ---
 
