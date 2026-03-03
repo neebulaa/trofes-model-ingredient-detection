@@ -157,7 +157,7 @@ python main.py
  ##### 4.View Results:Once finished, a new folder runs/detect/predict (or predict2, predict3, etc.) will be created.Open this folder to see the images with bounding boxes drawn around the detected ingredients.
 Note: If you want to change the detection confidence threshold, you can edit the conf parameter inside main.py.
 ```
-
+```
 ### 5. Run the API Locally
 
 ```bash
