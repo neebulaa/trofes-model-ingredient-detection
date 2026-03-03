@@ -136,13 +136,26 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+#### 3.5. Environment Configuration
+Create a file named .env in the root directory and add the following configuration:
 
-### 4. (Optional) Run Inference Script Locally
+```env
+MODEL_REPO_ID=Bagusarya/Trofes-YOLOv8m-Detct-Ingredients
+MODEL_FILENAME=best.pt
+CONFIDENCE_THRESHOLD=0.5
 
-If you want to run detection on local images without starting the server:
+4. (Optional) Run Inference Script Locally
+This standalone script allows you to test the model detection on images stored locally without running the API server.
 
-```bash
+Steps:
+
+ 1.Prepare Images:Place the images you want to detect into the test_images/ folder located in the project root.
+⚠️ Ensure the test_images/ folder contains at least one image file (.jpg, .png, etc.) before running the script.
+ 2.Run the Script:Execute the following command in your terminal:
 python main.py
+ 3.Automatic Model Download:On the first run, the script will automatically download the model weights from Hugging Face Hub (Bagusarya/Trofes-YOLOv8m-Detct-Ingredients). Please wait for the download to complete.
+ 4.View Results:Once finished, a new folder runs/detect/predict (or predict2, predict3, etc.) will be created.Open this folder to see the images with bounding boxes drawn around the detected ingredients.
+Note: If you want to change the detection confidence threshold, you can edit the conf parameter inside main.py.
 ```
 
 ### 5. Run the API Locally
