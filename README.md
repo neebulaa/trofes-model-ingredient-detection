@@ -149,12 +149,12 @@ This standalone script allows you to test the model detection on images stored l
 
 Steps:
 
- 1.Prepare Images:Place the images you want to detect into the test_images/ folder located in the project root.
+ #### 1.Prepare Images:Place the images you want to detect into the test_images/ folder located in the project root.
 ⚠️ Ensure the test_images/ folder contains at least one image file (.jpg, .png, etc.) before running the script.
- 2.Run the Script:Execute the following command in your terminal:
+ ##### 2.Run the Script:Execute the following command in your terminal:
 python main.py
- 3.Automatic Model Download:On the first run, the script will automatically download the model weights from Hugging Face Hub (Bagusarya/Trofes-YOLOv8m-Detct-Ingredients). Please wait for the download to complete.
- 4.View Results:Once finished, a new folder runs/detect/predict (or predict2, predict3, etc.) will be created.Open this folder to see the images with bounding boxes drawn around the detected ingredients.
+ ##### 3.Automatic Model Download:On the first run, the script will automatically download the model weights from Hugging Face Hub (Bagusarya/Trofes-YOLOv8m-Detct-Ingredients). Please wait for the download to complete.
+ ##### 4.View Results:Once finished, a new folder runs/detect/predict (or predict2, predict3, etc.) will be created.Open this folder to see the images with bounding boxes drawn around the detected ingredients.
 Note: If you want to change the detection confidence threshold, you can edit the conf parameter inside main.py.
 ```
 
