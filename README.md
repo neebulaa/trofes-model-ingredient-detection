@@ -143,8 +143,8 @@ Create a file named .env in the root directory and add the following configurati
 MODEL_REPO_ID=Bagusarya/Trofes-YOLOv8m-Detct-Ingredients
 MODEL_FILENAME=best.pt
 CONFIDENCE_THRESHOLD=0.5
-
-4. (Optional) Run Inference Script Locally
+```
+### 4. (Optional) Run Inference Script Locally
 This standalone script allows you to test the model detection on images stored locally without running the API server.
 
 Steps:
