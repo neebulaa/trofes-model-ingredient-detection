@@ -7,3 +7,5 @@ uvicorn
 python-multipart
 huggingface_hub
 numpy
+pydantic
+torch

@@ -107,7 +107,7 @@ GitHub Repository
 
 ### Prerequisites
 
-- [Python 3.9+](https://www.python.org/downloads/)
+- [Python 3.10](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://www.docker.com/get-started) *(optional, for container testing)*
 
